@@ -3334,5 +3334,7 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.komodo.settings.fragments.GamingMode" />
         </activity>
+
+	    <activity android:name=".deviceinfo.Changelog" />
     </application>
 </manifest>
