@@ -182,4 +182,7 @@ public class Settings extends SettingsActivity {
     public static class KomodoSettingsActivity extends SettingsActivity {}
 
     public static class GamingModeActivity extends SettingsActivity {}
+
+    // Custom additions.
+    public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
 }
