@@ -89,4 +89,7 @@
     <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
     <string name="adaptive_playback_timeout_10_min">10 minutes</string>
     <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
+
+     <!-- Allow to quickly open Running Services from QS panel -->
+    <string name="background_processes_settings_title">Background processes</string>
 </resources>
