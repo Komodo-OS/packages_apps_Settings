@@ -221,4 +221,7 @@
 
     <!-- Battery error text color -->
     <color name="battery_info_error_color_black">@*android:color/primary_text_default_material_light</color>
+
+    <color name="homepage_config_center_background">#1A73E8</color>
+
 </resources>
