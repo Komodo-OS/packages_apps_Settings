@@ -51,7 +51,7 @@ import java.util.Random;
 public class BuildNumberPreferenceController extends BasePreferenceController implements
         LifecycleObserver, OnStart {
 
-    static final int TAPS_TO_BE_A_DEVELOPER = 7;
+    static final int TAPS_TO_BE_A_DEVELOPER = 15;
     static final int REQUEST_CONFIRM_PASSWORD_FOR_DEV_PREF = 100;
 
     private Activity mActivity;
@@ -96,7 +96,14 @@ public class BuildNumberPreferenceController extends BasePreferenceController im
 
     @Override
     public CharSequence getSummary() {
-        return BidiFormatter.getInstance().unicodeWrap(Build.DISPLAY);
+        StringBuilder sb = new StringBuilder();
+        sb.append(BidiFormatter.getInstance().unicodeWrap(Build.DISPLAY));
+        String komodoBuildFingerprint = VersionUtils.getKomodoBuildFingerprint();
+        if (!komodoBuildFingerprint.equals("")){
+            sb.append("\n");
+            sb.append(komodoBuildFingerprint);
+        }
+        return sb.toString();
     }
 
     @Override
