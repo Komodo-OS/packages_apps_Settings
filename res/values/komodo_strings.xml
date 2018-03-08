@@ -76,5 +76,9 @@
     <string name="komodo_version">Komodo OS version</string>
     <string name="komodo_version_default">Unknown</string>
     <string name="keywords_komodo_version">komodo version</string>
+ 
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen from Double Tap 2 Wake gesture</string>
 
 </resources>
