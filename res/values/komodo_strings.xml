@@ -17,4 +17,8 @@
 
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tap to show info</string>
+
+    <!-- Installation Stats -->
+    <string name="komodo_stats_title">Komodo Stats</string>
+    <string name="komodo_stats_summary">Just counting how many devices we run on</string>
 </resources>
