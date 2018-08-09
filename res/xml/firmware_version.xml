@@ -30,6 +30,15 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
+    <!-- KomodoOS version -->
+    <Preference
+        android:key="komodo_version"
+        android:title="@string/komodo_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:searchable="false"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.KomodoVersionDetailPreferenceController"/>
+
     <!-- Security patch -->
     <Preference
         android:key="security_key"
