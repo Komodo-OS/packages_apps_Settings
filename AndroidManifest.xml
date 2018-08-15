@@ -3276,5 +3276,19 @@
         </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
+
+        <!-- Komodo Settings -->
+        <activity android:name=".SettingsKomodoSettingsActivity"
+            android:label="@string/komodo_settings_title"
+            android:icon="@drawable/ic_homepage_komodosettings"
+            android:parentActivityName="com.android.settings">
+            <intent-filter android:priority="69">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.komodo.settings.KomodoSettings" />
+        </activity>
+
     </application>
 </manifest>

@@ -34,4 +34,8 @@
     <string name="komodo_version_default">Unknown</string>
     <string name="keywords_komodo_version">komodo version</string>
 
+    <!-- Komodo Center -->
+    <string name="komodo_settings_title">Komodo Dragon panels</string>
+    <string name="komodo_settings_dashboard_summary">Original from indonesia</string>
+
 </resources>
