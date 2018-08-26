@@ -36,4 +36,7 @@
     <!-- About device screen, KomodoOS -->
     <string name="komodo_version">KomodoOS Version</string>
 
+    <!-- About device screen, Build date -->
+    <string name="build_date">Build date</string>
+
 </resources>
