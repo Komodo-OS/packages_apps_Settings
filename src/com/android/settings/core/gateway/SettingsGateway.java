@@ -97,6 +97,7 @@ import com.android.settings.inputmethod.SpellCheckersSettings;
 import com.android.settings.inputmethod.UserDictionaryList;
 import com.android.settings.inputmethod.UserDictionarySettings;
 import com.android.settings.language.LanguageAndInputSettings;
+import com.android.settings.livedisplay.LiveDisplaySettings;
 import com.android.settings.localepicker.LocaleListEditor;
 import com.android.settings.location.LocationSettings;
 import com.android.settings.location.ScanningSettings;
@@ -291,6 +292,7 @@ public class SettingsGateway {
             DarkModeSettingsFragment.class.getName(),
             GamingMode.class.getName(),
             RunningServices.class.getName(),
+	    LiveDisplaySettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {

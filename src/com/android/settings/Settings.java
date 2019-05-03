@@ -186,4 +186,8 @@ public class Settings extends SettingsActivity {
 
     // Custom additions.
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
+
+    // LiveDisplay
+    public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
+
 }
