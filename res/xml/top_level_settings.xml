@@ -98,6 +98,14 @@
         settings:controller="com.android.settings.display.TopLevelWallpaperPreferenceController"/>
 
     <Preference
+        android:key="top_level_komodo_settings"
+        android:title="@string/komodo_settings_dash_title"
+        android:summary="@string/komodo_settings_summary"
+        android:icon="@drawable/ic_settings_komodo"
+        android:order="-65"
+        android:fragment="com.komodo.settings.Reptools"/>
+
+    <Preference
         android:fragment="com.android.settings.accessibility.AccessibilitySettings"
         android:icon="@drawable/ic_settings_accessibility"
         android:key="top_level_accessibility"
