@@ -54,4 +54,6 @@
     <string name="komodo_maintainer_default">Unknown</string>
     <string name="keywords_komodo_maintainer">komodo maintainer</string>
 
+    <string name="battery_temp">Battery temperature</string>
+
 </resources>
