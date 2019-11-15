@@ -72,4 +72,9 @@
     <string name="short_label">Short</string>
     <string name="long_label">Long</string>
 
+    <!-- About phone screen, Komodo version -->
+    <string name="komodo_version">Komodo OS version</string>
+    <string name="komodo_version_default">Unknown</string>
+    <string name="keywords_komodo_version">komodo version</string>
+
 </resources>
