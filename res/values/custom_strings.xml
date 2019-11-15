@@ -28,4 +28,10 @@
 
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
     <string name="suggestion_button_close">Close</string>
+
+    <!-- About phone screen, Komodo version -->
+    <string name="komodo_version">Komodo-OS version</string>
+    <string name="komodo_version_default">Unknown</string>
+    <string name="keywords_komodo_version">komodo version</string>
+
 </resources>
