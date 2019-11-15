@@ -27,6 +27,14 @@
         android:layout="@layout/komodo_logo"
         android:selectable="false"/>
 
+    <!-- Komodo version -->
+    <Preference
+        android:key="komodo_version"
+        android:title="@string/komodo_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.KomodoVersionPreferenceController"/>
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"

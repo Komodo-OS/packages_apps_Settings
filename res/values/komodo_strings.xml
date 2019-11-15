@@ -18,4 +18,9 @@
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
 
+    <!-- About phone screen, Komodo version -->
+    <string name="komodo_version">Komodo OS version</string>
+    <string name="komodo_version_default">Unknown</string>
+    <string name="keywords_komodo_version">komodo version</string>
+
 </resources>
