@@ -180,4 +180,6 @@ public class Settings extends SettingsActivity {
 
     // KomodoOS Additions.
     public static class KomodoSettingsActivity extends SettingsActivity {}
+
+    public static class GamingModeActivity extends SettingsActivity {}
 }
