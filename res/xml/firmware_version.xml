@@ -36,6 +36,14 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KomodoVersionPreferenceController"/>
 
+    <!-- Komodo Build Type -->
+    <Preference
+        android:key="komodo_build_type"
+        android:title="@string/komodo_build_type"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.KomodoBuildTypePreferenceController"/>
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"

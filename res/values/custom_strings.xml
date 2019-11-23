@@ -38,4 +38,9 @@
     <string name="komodo_settings_title">Komodo Dragon panels</string>
     <string name="komodo_settings_dashboard_summary">Original from indonesia</string>
 
+    <!-- Komodo Build Type -->
+    <string name="komodo_build_type">Komodo Build</string>
+    <string name="komodo_build_type_default">UNOFFICIAL | KW</string>
+    <string name="keywords_komodo_build_type">komodo build type</string>
+
 </resources>
