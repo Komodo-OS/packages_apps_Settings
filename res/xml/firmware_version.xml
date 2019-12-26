@@ -22,6 +22,12 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- Komodo logo -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="komodo_logo"
+        android:layout="@layout/komodo_logo"
+        android:selectable="false"/>
+
     <!-- Komodo version -->
     <Preference
         android:key="komodo_version"
