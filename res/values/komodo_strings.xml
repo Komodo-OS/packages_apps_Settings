@@ -30,5 +30,6 @@
 
     <!-- Bianca maintainer -->
     <string name="maintainer">Maintainer</string>
+    <string name="maintainer_name">Your local GitHub Retard</string>
 
 </resources>
