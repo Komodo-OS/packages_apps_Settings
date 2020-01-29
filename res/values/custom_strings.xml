@@ -49,4 +49,9 @@
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
 
+    <!-- Komodo Maintainer -->
+    <string name="komodo_maintainer">Komodo Maintainer</string>
+    <string name="komodo_maintainer_default">Unknown</string>
+    <string name="keywords_komodo_maintainer">komodo maintainer</string>
+
 </resources>

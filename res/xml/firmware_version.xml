@@ -44,6 +44,14 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KomodoBuildTypePreferenceController"/>
 
+    <!-- Komodo Maintainer -->
+    <Preference
+        android:key="komodo_maintainer"
+        android:title="@string/komodo_maintainer"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.KomodoMaintainerPreferenceController"/>
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
