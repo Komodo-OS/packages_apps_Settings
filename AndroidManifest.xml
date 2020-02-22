@@ -3861,6 +3861,73 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.komodo.settings.Reptools" />
         </activity>
+
+        <!-- Navbar -->
+        <activity
+            android:name="com.komodo.settings.fragments.navbar.BackLongPress"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.MinWidth"
+            android:exported="true"
+            android:label="@string/app_picker_dialog_title" >
+            <intent-filter>
+                <action android:name="com.komodo.settings.fragments.navbar.BackLongPress" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.komodo.settings.fragments.navbar.BackDoubleTap"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.MinWidth"
+            android:exported="true"
+            android:label="@string/app_picker_dialog_title" >
+            <intent-filter>
+                <action android:name="com.komodo.settings.fragments.navbar.BackDoubleTap" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.komodo.settings.fragments.navbar.HomeLongPress"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.MinWidth"
+            android:exported="true"
+            android:label="@string/app_picker_dialog_title" >
+            <intent-filter>
+                <action android:name="com.komodo.settings.fragments.navbar.HomeLongPress" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.komodo.settings.fragments.navbar.HomeDoubleTap"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.MinWidth"
+            android:exported="true"
+            android:label="@string/app_picker_dialog_title" >
+            <intent-filter>
+                <action android:name="com.komodo.settings.fragments.navbar.HomeDoubleTap" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.komodo.settings.fragments.navbar.AppSwitchLongPress"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.MinWidth"
+            android:exported="true"
+            android:label="@string/app_picker_dialog_title" >
+            <intent-filter>
+                <action android:name="com.komodo.settings.fragments.navbar.AppSwitchLongPress" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.komodo.settings.fragments.navbar.AppSwitchDoubleTap"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.MinWidth"
+            android:exported="true"
+            android:label="@string/app_picker_dialog_title" >
+            <intent-filter>
+                <action android:name="com.komodo.settings.fragments.navbar.AppSwitchDoubleTap" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
