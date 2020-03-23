@@ -115,6 +115,9 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
                     Settings.System.putInt(getActivity().getContentResolver(),
                             Settings.System.BACK_GESTURE_HAPTIC, mEdgeHapticSwitchChecked ? 1 : 0);
                     SystemNavigationGestureSettings.setHomeHandleSize(getActivity(), length);
+                    SystemNavigationGestureSettings.setBackGestureOverlaysToUse(getActivity());
+                    SystemNavigationGestureSettings.setCurrentSystemNavigationMode(getActivity(),
+                            getOverlayManager(), SystemNavigationGestureSettings.getCurrentSystemNavigationMode(getActivity()));
                 })
                 .create();
     }
