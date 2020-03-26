@@ -53,7 +53,8 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     contextualcards \
     settings-logtags \
     zxing-core-1.7 \
-    airbnb-lottie
+    airbnb-lottie \
+    faceunlock_utils
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
