@@ -31,6 +31,7 @@ public class KomodoBuildTypePreferenceController extends BasePreferenceControlle
 
     @VisibleForTesting
     static final String KOMODO_BUILD_TYPE_PROPERTY = "org.komodo.build_type";
+    static final String KOMODO_BUILD_GAPPS_TYPE_PROPERTY = "org.komodo.ziptype";
 
     public KomodoBuildTypePreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
@@ -38,12 +39,16 @@ public class KomodoBuildTypePreferenceController extends BasePreferenceControlle
 
     @Override
     public int getAvailabilityStatus() {
-        return !TextUtils.isEmpty(SystemProperties.get(KOMODO_BUILD_TYPE_PROPERTY)) ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+        return !TextUtils.isEmpty(SystemProperties.get(KOMODO_BUILD_TYPE_PROPERTY, KOMODO_BUILD_GAPPS_TYPE_PROPERTY)) ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(KOMODO_BUILD_TYPE_PROPERTY,
+        String buildType = SystemProperties.get(KOMODO_BUILD_TYPE_PROPERTY,
                 mContext.getString(R.string.device_info_default));
+        String buildGappstype =  SystemProperties.get(KOMODO_BUILD_GAPPS_TYPE_PROPERTY,
+                this.mContext.getString(R.string.device_info_default));
+        return buildType + " | " + buildGappstype;
+
     }
 }
