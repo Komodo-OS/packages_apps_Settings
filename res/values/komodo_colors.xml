@@ -17,6 +17,6 @@
 <resources>
 
     <!-- KomodoSettings Color -->
-    <color name="homepage_komodo_background">#536dfe</color>
+    <color name="homepage_komodo_background">#00A86B</color>
 
 </resources>
