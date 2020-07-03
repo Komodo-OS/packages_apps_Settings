@@ -29,7 +29,6 @@
     <com.android.settingslib.RestrictedPreference
         android:key="brightness"
         android:title="@string/brightness"
-        android:iconSpaceReserved="false"
         settings:keywords="@string/keywords_display_brightness_level"
         settings:useAdminDisabledSummary="true"
         settings:userRestriction="no_config_brightness">
@@ -40,7 +39,6 @@
         android:key="night_display"
         android:title="@string/night_display_title"
         android:fragment="com.android.settings.display.NightDisplaySettings"
-        android:iconSpaceReserved="false"
         android:widgetLayout="@null"
         settings:widgetLayout="@null"
         settings:searchable="false" />
@@ -50,7 +48,6 @@
         android:title="@string/auto_brightness_title"
         android:summary="@string/summary_placeholder"
         android:fragment="com.android.settings.display.AutoBrightnessSettings"
-        android:iconSpaceReserved="false"
         settings:controller="com.android.settings.display.AutoBrightnessPreferenceController"/>
 
     <Preference
@@ -63,7 +60,6 @@
     <com.android.settingslib.RestrictedPreference
         android:key="wallpaper"
         android:title="@string/wallpaper_settings_title"
-        android:iconSpaceReserved="false"
         settings:keywords="@string/keywords_display_wallpaper"
         settings:useAdminDisabledSummary="true"
         settings:controller="com.android.settings.display.WallpaperPreferenceController">
@@ -76,7 +72,6 @@
         android:summary="@string/summary_placeholder"
         android:entries="@array/screen_timeout_entries"
         android:entryValues="@array/screen_timeout_values"
-        android:iconSpaceReserved="false"
         settings:keywords="@string/keywords_screen_timeout" />
 
     <Preference
@@ -84,13 +79,11 @@
         android:title="@string/adaptive_sleep_title"
         android:summary="@string/summary_placeholder"
         android:fragment="com.android.settings.display.AdaptiveSleepSettings"
-        android:iconSpaceReserved="false"
         settings:controller="com.android.settings.display.AdaptiveSleepPreferenceController" />
 
     <SwitchPreference
         android:key="auto_rotate"
         android:title="@string/accelerometer_title"
-        android:iconSpaceReserved="false"
         settings:keywords="@string/keywords_auto_rotate"
         settings:controller="com.android.settings.display.AutoRotatePreferenceController" />
 
@@ -106,7 +99,6 @@
         android:key="screensaver"
         android:title="@string/screensaver_settings_title"
         android:fragment="com.android.settings.dream.DreamSettings"
-        android:iconSpaceReserved="false"
         settings:searchable="false" />
 
     </PreferenceCategory>
@@ -119,39 +111,33 @@
         android:key="display_white_balance"
         android:title="@string/display_white_balance_title"
         android:summary="@string/display_white_balance_summary"
-        android:iconSpaceReserved="false"
         settings:controller="com.android.settings.display.DisplayWhiteBalancePreferenceController" />
 
     <Preference
         android:key="font_size"
         android:title="@string/title_font_size"
         android:fragment="com.android.settings.display.ToggleFontSizePreferenceFragment"
-        android:iconSpaceReserved="false"
         settings:controller="com.android.settings.display.FontSizePreferenceController" />
 
     <com.android.settings.display.ScreenZoomPreference
         android:key="display_settings_screen_zoom"
         android:title="@string/screen_zoom_title"
         android:fragment="com.android.settings.display.ScreenZoomSettings"
-        android:iconSpaceReserved="false"
         settings:searchable="false"/>
 
     <com.android.settings.display.DensityPreference
         android:key="density"
-        android:iconSpaceReserved="false"
         android:title="@string/developer_smallest_width" />
 
     <SwitchPreference
         android:key="show_operator_name"
         android:title="@string/show_operator_name_title"
-        android:iconSpaceReserved="false"
         android:summary="@string/show_operator_name_summary" />
 
     <Preference
         android:key="lockscreen_from_display_settings"
         android:title="@string/lockscreen_settings_title"
         android:fragment="com.android.settings.security.LockscreenDashboardFragment"
-        android:iconSpaceReserved="false"
         settings:controller="com.android.settings.security.screenlock.LockScreenPreferenceController" />
 
     </PreferenceCategory>
@@ -163,24 +149,20 @@
     <SwitchPreference
         android:key="camera_gesture"
         android:title="@string/camera_gesture_title"
-        android:iconSpaceReserved="false"
         android:summary="@string/camera_gesture_desc" />
 
     <SwitchPreference
         android:key="lift_to_wake"
-        android:iconSpaceReserved="false"
         android:title="@string/lift_to_wake_title" />
 
     <SwitchPreference
         android:key="tap_to_wake"
         android:title="@string/tap_to_wake"
-        android:iconSpaceReserved="false"
         android:summary="@string/tap_to_wake_summary" />
 
     <Preference
         android:key="vr_display_pref"
         android:title="@string/display_vr_pref_title"
-        android:iconSpaceReserved="false"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
 
     </PreferenceCategory>
@@ -195,7 +177,6 @@
         android:title="@string/dark_ui_mode"
         android:fragment="com.android.settings.display.darkmode.DarkModeSettingsFragment"
         android:widgetLayout="@null"
-        android:iconSpaceReserved="false"
         settings:widgetLayout="@null"
         settings:controller="com.android.settings.display.DarkUIPreferenceController"
         settings:searchable="false"/>
@@ -203,9 +184,7 @@
     <ListPreference
         android:key="theme"
         android:title="@string/device_theme"
-        android:iconSpaceReserved="false"
         android:summary="@string/summary_placeholder" />
-
 
     </PreferenceCategory>
 
