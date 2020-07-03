@@ -21,6 +21,11 @@
     android:title="@string/header_category_system"
     settings:initialExpandedChildrenCount="8">
 
+    <Preference 
+        android:key="system_logo"
+        android:order="-500"
+        android:layout="@layout/system_animation" />
+
     <Preference
         android:key="gesture_settings"
         android:title="@string/gesture_preference_title"
