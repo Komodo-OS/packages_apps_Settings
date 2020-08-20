@@ -30,6 +30,7 @@ public class KomodoVersionPreferenceController extends BasePreferenceController 
 
     @VisibleForTesting
     static final String KOMODO_VERSION_PROPERTY = "org.komodo.version";
+    static final String KOMODO_VERSION_NAME_PROPERTY = "org.komodo.version.name";
 
     public KomodoVersionPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
@@ -37,12 +38,15 @@ public class KomodoVersionPreferenceController extends BasePreferenceController 
 
     @Override
     public int getAvailabilityStatus() {
-        return !TextUtils.isEmpty(SystemProperties.get(KOMODO_VERSION_PROPERTY)) ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+        return !TextUtils.isEmpty(SystemProperties.get(KOMODO_VERSION_PROPERTY, KOMODO_VERSION_NAME_PROPERTY)) ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(KOMODO_VERSION_PROPERTY,
+        String buildVersion = SystemProperties.get(KOMODO_VERSION_PROPERTY,
                 mContext.getString(R.string.device_info_default));
+        String buildVersionName =  SystemProperties.get(KOMODO_VERSION_NAME_PROPERTY,
+                this.mContext.getString(R.string.device_info_default));
+        return "v" + buildVersion + " | " + buildVersionName;
     }
 }
