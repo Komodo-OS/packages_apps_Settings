@@ -38,7 +38,7 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
 
     private boolean mArrowSwitchChecked;
     private boolean mEdgeHapticSwitchChecked;
-
+    private boolean mGestureHapticChecked;
 
     private static final String TAG = "GestureNavigationBackSensitivityDialog";
     private static final String KEY_BACK_SENSITIVITY = "back_sensitivity";
