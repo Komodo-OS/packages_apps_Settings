@@ -313,13 +313,6 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment
                 .getInt(PREFS_BACK_SENSITIVITY_KEY, BACK_GESTURE_INSET_DEFAULT_OVERLAY);
     }
 
-    static void setBackGestureOverlaysToUse(Context context) {
-        if (getHomeHandleSize(context) == 0) {
-            BACK_GESTURE_OVERLAYS_TO_USE = BACK_GESTURE_INSET_OVERLAYS_NO_PILL;
-        } else {
-            BACK_GESTURE_OVERLAYS_TO_USE = BACK_GESTURE_INSET_OVERLAYS;
-    }
-
     static void setBackHeight(Context context, int height) {
         // height cant be range 0 - 3
         // 0 means full height
@@ -343,6 +336,19 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment
     static int getHomeHandleSize(Context context) {
         return Settings.System.getInt(context.getContentResolver(),
                 Settings.System.NAVIGATION_HANDLE_WIDTH, 1);
+    }
+
+    static int getPillToggleState(Context context) {
+        return Settings.System.getInt(context.getContentResolver(),
+                Settings.System.GESTURE_PILL_TOGGLE, 0);
+    }
+
+    static void setBackGestureOverlaysToUse(Context context) {
+        if (getHomeHandleSize(context) == 0) {
+            BACK_GESTURE_OVERLAYS_TO_USE = BACK_GESTURE_INSET_OVERLAYS_NO_PILL;
+        } else {
+            BACK_GESTURE_OVERLAYS_TO_USE = BACK_GESTURE_INSET_OVERLAYS;
+        }
     }
 
     @VisibleForTesting
