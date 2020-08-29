@@ -51,6 +51,7 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     settings-log-bridge-protos-lite \
     contextualcards \
     settings-logtags \
+    materialgoogle \
     zxing-core-1.7
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
@@ -76,7 +77,8 @@ include $(BUILD_PACKAGE)
 include $(CLEAR_VARS)
 
 LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := \
-    contextualcards:libs/contextualcards.aar
+    contextualcards:libs/contextualcards.aar \
+    materialgoogle:libs/materialgoogle.aar
 include $(BUILD_MULTI_PREBUILT)
 
 # Use the following include to make our test apk.
