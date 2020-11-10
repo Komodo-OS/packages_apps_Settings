@@ -240,4 +240,6 @@ public class Settings extends SettingsActivity {
      */
     public static class MediaControlsSettingsActivity extends SettingsActivity {}
 
+    // KomodoOS Additions
+    public static class KomodoSettingsActivity extends SettingsActivity {}
 }
