@@ -21,4 +21,7 @@
     <!-- Installation Stats -->
     <string name="komodo_stats_title">Komodo Stats</string>
     <string name="komodo_stats_summary">Just counting how many devices we run on</string>
+
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Screen refresh rate</string>
 </resources>
