@@ -19,4 +19,8 @@
     <!-- KomodoSettings Color -->
     <color name="homepage_komodo_background">#00A86B</color>
 
+    <color name="homepage_google_background">#4285f4</color>
+    <color name="homepage_wellbeing_background">#f06292</color>
+    <color name="homepage_part_background">#425ff4</color>
+
 </resources>
