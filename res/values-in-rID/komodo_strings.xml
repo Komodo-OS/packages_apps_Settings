@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Fingerprint location message - default -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Menempatkan sensor sidik jari di bagian depan telepon anda.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Menempatkan sensor sidik jari di bagian kiri telepon anda.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Menempatkan sensor sidik jari di bagian kanan telepon anda.</string>
+    <!-- Fingerprint location message - generic -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Menempatkan sensor sidik jari di bagian depan perangkat anda.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Menempatkan sensor sidik jari di bagian kiri perangkat anda.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Menempatkan sensor sidik jari di bagian kanan perangkat anda.</string>
+    <!-- Fingerprint location message - tablet -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Menempatkan sensor sidik jari di bagian depan tablet anda.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Menempatkan sensor sidik jari di bagian kiri tablet anda.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Menempatkan sensor sidik jari di bagian kanan tablet anda.</string>
+    <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
+    <string name="suggestion_button_close">Tutup</string>
+    <!-- About phone screen, Komodo version -->
+    <string name="komodo_version">Komodo-OS versi</string>
+    <string name="komodo_version_default">Tidak diketahui</string>
+    <string name="keywords_komodo_version">versi komodo</string>
+    <!-- Komodo Center -->
+    <string name="komodo_settings_title">versi komodo</string>
+    <string name="komodo_settings_dashboard_summary">Asli dari indonesia</string>
+    <!-- Komodo Build Type -->
+    <string name="komodo_build_type">Build Komodo</string>
+    <string name="komodo_build_type_default">TIDAK RESMI | KW</string>
+    <string name="keywords_komodo_build_type">tipe build komodo</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">Status SElinux</string>
+    <string name="selinux_status_disabled">Dimatikan</string>
+    <string name="selinux_status_permissive">Permisif</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+    <!-- Komodo Maintainer -->
+    <string name="komodo_maintainer">Pengelola Komodo</string>
+    <string name="komodo_maintainer_default">Tidak diketahui</string>
+    <string name="keywords_komodo_maintainer">pengelola Komodo</string>
+    <string name="battery_temp">Suhu baterai</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Atur ulang stats</string>
+    <string name="battery_stats_message">Riwayat baterai stats akan diatur ulang</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Data seluler</string>
+    <string name="data_usage_app_restrict_data_summary">Izinkan pemakaian data seluler</string>
+    <string name="data_usage_app_restrict_vpn">Data VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Izinkan pemakaian data VPN</string>
+    <string name="data_usage_app_restrict_wifi">Data Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Aktifkan pemakaian dari data Wi\u2011Fi</string>
+    <!-- NavigationBar Gestural Mode Tweaks -->
+    <string name="navbar_gesture_mode_category_title">Perubahan mode isyarat</string>
+    <string name="navbar_gesture_mode_category_key">perubahan_mode_isyarat</string>
+    <string name="navbar_gesture_pill_toggle_title">Gerakan layar penuh</string>
+    <string name="navbar_gesture_pill_toggle_summary">Ini akan menyembunyikan kedua bilah navigasi dan pill untuk pengalaman memakai gestur fullscreen.</string>
+    <string name="navbar_gesture_pill_toggle_summary_disabled">Opsi ini hanya tersedia untuk gestur navigasi!</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Pemutaran adaptif</string>
+    <string name="adaptive_playback_timeout_title">Gunakan batas waktu</string>
+    <string name="adaptive_playback_timeout_none_summary">Mati</string>
+    <string name="adaptive_playback_timeout_30_secs">30 detik</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Aktif (30 detik)</string>
+    <string name="adaptive_playback_timeout_1_min">1 menit</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Aktif (1 menit)</string>
+    <string name="adaptive_playback_timeout_2_min">2 menit</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Aktif (2 menit)</string>
+    <string name="adaptive_playback_timeout_5_min">5 menit</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Aktif (5 menit)</string>
+    <string name="adaptive_playback_timeout_10_min">10 menit</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Aktif (10 menit)</string>
+    <!-- Allow to quickly open Running Services from QS panel -->
+    <string name="background_processes_settings_title">Proses latar belakang</string>
+    <!-- Adb over Network -->
+    <string name="adb_over_network">ADB melalui jaringan</string>
+    <string name="adb_over_network_summary">Aktifkan TCP/IP debugging melalui antarmuka jaringan (Wi-Fi, jaringan USB). Pengaturan ini akan diatur ulang saat reboot</string>
+    <string name="adb_over_network_warning">PERINGATAN: Ketika ADB melalui jaringan diaktifkan, telepon anda terbuka untuk gangguan pada semua jaringan yang terhubung, termasuk jaringan data GSM!\n\nHanya gunakan fitur ini ketika anda terhubung pada jaringan yang terpercaya.\n\nApakah kamu benar-benar ingin mengaktifkan fungsi ini?</string>
+    <string name="adb_over_network_warning_title">Izinkan ADB melalui jaringan?</string>
+    <!-- Changelog error -->
+    <string name="changelog_error">Tidak dapat memuat changelog</string>
+    <!-- Notch behavior -->
+    <string name="display_cutout_mode_title">Perilaku takik</string>
+    <string name="display_cutout_mode_normal">Bawaan</string>
+    <string name="display_cutout_mode_hidden">Sembunyikan</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total RAM</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Earbuds yang tersimpan</string>
+</resources>
