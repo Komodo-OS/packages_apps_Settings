@@ -22,10 +22,10 @@
     settings:keywords="@string/keywords_android_version">
 
     <!-- Komodo logo -->
-    <Preference
-        android:key="komodo_animation"
-        android:layout="@layout/komodo_animation"
-        android:selectable="false" />
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="komodo_logo"
+        android:layout="@layout/komodo_logo"
+        android:selectable="false"/>
 
     <!-- Komodo version -->
     <Preference
