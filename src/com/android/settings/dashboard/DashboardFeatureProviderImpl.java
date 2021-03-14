@@ -371,14 +371,19 @@ public class DashboardFeatureProviderImpl implements DashboardFeatureProvider {
             if (tile.getPackageName().equals(PACKAGENAME_GMS)
                     && tile.getTitle(preference.getContext()).toString().equalsIgnoreCase("Google")) {
                 iconDrawable = preference.getContext().getDrawable(R.drawable.ic_homepage_google);
+                preference.setLayoutResource(R.layout.komodo_preference_middle_card);
             } else if (tile.getPackageName().equals(PACKAGENAME_WELLBEING)) {
                 iconDrawable = preference.getContext().getDrawable(R.drawable.ic_homepage_wellbeing);
+                preference.setLayoutResource(R.layout.komodo_preference_top_card);
             } else if (tile.getPackageName().equals(PACKAGENAME_GPARTS)) {
                 iconDrawable = preference.getContext().getDrawable(R.drawable.ic_homepage_parts);
+                preference.setLayoutResource(R.layout.komodo_preference_bottom_card);
             } else if (tile.getPackageName().equals(PACKAGENAME_LPARTS)) {
                 iconDrawable = preference.getContext().getDrawable(R.drawable.ic_homepage_parts);
+                preference.setLayoutResource(R.layout.komodo_preference_bottom_card);
             } else if (tile.getPackageName().equals(PACKAGENAME_XPARTS)) {
                 iconDrawable = preference.getContext().getDrawable(R.drawable.ic_homepage_parts);
+                preference.setLayoutResource(R.layout.komodo_preference_bottom_card);
             } else if (forceRoundedIcon
                     && !TextUtils.equals(mContext.getPackageName(), tile.getPackageName())) {
                 iconDrawable = new AdaptiveIcon(mContext, iconDrawable);
