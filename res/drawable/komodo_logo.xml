@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="1080.000000dp"
-    android:height="480.000000dp"
-    android:viewportWidth="1080.000000"
-    android:viewportHeight="480.000000">
+    android:gravity="center" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+    android:layout_width="match_parent" 
+    android:layout_height="100dp" 
+    android:scaleType="centerInside" 
+    android:layout_marginTop="10dp" 
+    android:layout_marginBottom="10dp" />
 
     <group
             android:translateY="3176.000000"
