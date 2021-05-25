@@ -2930,6 +2930,9 @@
     <string name="automatic_brightness">Automatic brightness</string>
     <!-- [CHAR LIMIT=40] Display settings screen, setting option name to change whether the device wakes up when a lift gesture is detected. -->
     <string name="lift_to_wake_title">Lift to wake</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
 
     <!-- [CHAR LIMIT=30] Title of the preference that opens the Ambient display settings screen. -->
     <string name="ambient_display_screen_title">Ambient display</string>
