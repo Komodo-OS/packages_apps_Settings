@@ -21,7 +21,7 @@
     <!-- About phone screen, Komodo version -->
     <string name="komodo_version">Komodo OS version</string>
     <string name="maintainer">Komodo Maintainer</string>
-    <string name="maintainer_name">Unofficial Maintainer</string>
+    <string name="maintainer_name">Unknown Maintainer</string>
     <string name="komodo_version_default">Unknown</string>
     <string name="keywords_komodo_version">komodo version</string>
 
