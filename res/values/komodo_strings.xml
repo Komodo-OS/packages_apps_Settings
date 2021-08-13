@@ -67,4 +67,9 @@
     <string name="back_options_dialog_title">Options</string>
     <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
 
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Pill length</string>
+    <string name="short_label">Short</string>
+    <string name="long_label">Long</string>
+
 </resources>
