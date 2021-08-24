@@ -22,7 +22,7 @@
 
     <Preference
         android:key="top_level_about_device"
-        android:layout="@layout/komodo_preference_full_alone_card"
+        android:layout="@layout/komodo_preference_top_card"
         android:title="@string/about_settings"
         android:summary="@string/summary_placeholder"
         android:icon="@drawable/ic_homepage_about"
@@ -32,7 +32,7 @@
 
     <Preference
         android:key="top_level_komodo_settings"
-        android:layout="@layout/komodo_preference_full_alone_card"
+        android:layout="@layout/komodo_preference_bottom_card"
         android:title="@string/komodo_settings_title"
         android:summary="@string/komodo_dashboard_summary"
         android:icon="@drawable/ic_homepage_komodosettings"
