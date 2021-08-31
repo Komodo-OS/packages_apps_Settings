@@ -45,7 +45,7 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.MainlineModuleVersionPreferenceController"/ -->
 
-    <!-- Bianca maintainer -->
+    <!-- Komodo maintainer -->
     <Preference
         android:key="maintainer"
         android:title="@string/maintainer"
