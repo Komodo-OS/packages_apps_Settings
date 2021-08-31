@@ -21,6 +21,6 @@
     <dimen name="komodo_settings_bar_height">190dp</dimen>
 
     <!-- Cardview radius -->
-    <dimen name="komodo_pref_radius">16dp</dimen>
+    <dimen name="komodo_pref_radius">@*android:dimen/config_dialogCornerRadius</dimen>
 
 </resources>
