@@ -1,22 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="256dp"
-    android:height="256dp"
-    android:viewportWidth="256"
-    android:viewportHeight="256">
-
-    <group>
-        <path
-            android:fillColor="@android:color/system_accent1_600"
-            android:fillType="evenOdd"
-            android:pathData="M603.376 0V172.638L0 774.406V1090.09C158.262 1090.09 222.557 1119.68 341.253 996.37C479.733 848.394 633.05 705.351 771.529 562.308C875.389 458.725 984.195 350.209 1088.05 246.626V108.516C1088.05 88.7854 1083.11 73.9879 1078.16 64.1228C1068.27 44.3927 1048.49 24.6626 1028.71 14.7976C1018.81 9.86505 1003.98 4.93252 979.249 4.93252C855.606 4.93252 727.018 4.93252 603.376 4.93252V0Z" />
-        <path
-            android:fillColor="@android:color/system_accent1_600"
-            android:fillType="evenOdd"
-            android:pathData="M0 0H356.091V118.381L113.751 360.074H0V0Z" />
-        <path
-            android:fillColor="@android:color/system_accent1_600"
-            android:fillType="evenOdd"
-            android:pathData="M598.268 1091.52H1092.84V598.268L598.268 1091.52Z" />
-    </group>
+    android:width="150dp"
+    android:height="150dp"
+    android:viewportWidth="600"
+    android:viewportHeight="600">
+  <path
+      android:pathData="M1.575,1.476H196.053V66.13L63.7,198.129H1.575Z"
+      android:fillColor="@android:color/system_accent2_500" />
+  <path
+      android:pathData="M331.106,1.476V95.762L1.575,424.415v172.409c86.434,0 121.548,16.16 186.374,-51.185C263.579,464.823 347.313,386.701 422.942,308.578 479.665,252.007 539.089,192.741 595.809,136.17V60.742c0,-10.776 -2.698,-18.857 -5.401,-24.245 -5.401,-10.776 -16.204,-21.551 -27.007,-26.939 -5.407,-2.694 -13.506,-5.388 -27.013,-5.388 -67.527,0 -137.755,0 -205.281,0z"
+      android:fillColor="@android:color/system_accent2_400" />
+  <path
+      android:pathData="M328.317,597.605H598.425V328.218Z"
+      android:fillColor="@android:color/system_accent2_500" />
 </vector>
