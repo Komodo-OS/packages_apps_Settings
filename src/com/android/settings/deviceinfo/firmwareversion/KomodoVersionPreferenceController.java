@@ -31,6 +31,7 @@ public class KomodoVersionPreferenceController extends BasePreferenceController 
     @VisibleForTesting
     static final String KOMODO_VERSION_PROPERTY = "org.komodo.version";
     static final String KOMODO_VERSION_NAME_PROPERTY = "org.komodo.version.name";
+    static final String KOMODO_BUILD_TYPE_PROPERTY = "org.komodo.build_type";
 
     public KomodoVersionPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
@@ -47,6 +48,8 @@ public class KomodoVersionPreferenceController extends BasePreferenceController 
                 mContext.getString(R.string.device_info_default));
         String buildVersionName =  SystemProperties.get(KOMODO_VERSION_NAME_PROPERTY,
                 this.mContext.getString(R.string.device_info_default));
-        return "v" + buildVersion + " | " + buildVersionName;
+        String buildType =  SystemProperties.get(KOMODO_BUILD_TYPE_PROPERTY,
+                this.mContext.getString(R.string.device_info_default));
+        return "v" + buildVersion + " | " + buildVersionName + " | " + buildType;
     }
 }
