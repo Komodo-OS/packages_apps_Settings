@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 ArrowOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="komodo_settings_dash_title">Reptools</string>
+    <string name="komodo_settings_summary">Строка состояния, навигация и т.д.</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Нажмите, чтобы показать информацию</string>
+    <!-- Installation Stats -->
+    <string name="komodo_stats_title">Статистика Komodo</string>
+    <string name="komodo_stats_summary">Мы просто считаем на скольких устройствах используется ROM</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Минимальная частота обновления экрана</string>
+    <string name="max_refresh_rate_title">Максимальная частота обновления экрана</string>
+    <string name="battery_saver_refresh_rate_title">Уменьшить частоту обновления экрана</string>
+    <string name="battery_saver_refresh_rate_summary">Использовать частоту обновления экрана 60 Гц для экономии энергии, когда включена экономия заряда</string>
+    <!-- Komodo maintainer -->
+    <string name="maintainer">Сопровождающий</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">Статус SELinux</string>
+    <string name="selinux_status_disabled">Отключен</string>
+    <string name="selinux_status_permissive">Разрешающий</string>
+    <string name="selinux_status_enforcing">Запрещающий</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Связать громкость рингтона и уведомлений</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Свайп для создания скриншота</string>
+    <string name="three_finger_gesture_summary">Проведите вниз тремя пальцами для создания скриншота</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Звук скриншота</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_category">Цветовой баланс</string>
+    <string name="color_mode_balance_red">Уровень красного</string>
+    <string name="color_mode_balance_green">Уровень зеленого</string>
+    <string name="color_mode_balance_blue">Уровень синего</string>
+    <string name="keywords_color_balance">цвет, цветовой баланс, цветовая коррекция, красный, зелёный, синий, LiveDisplay</string>
+    <!-- Display tap to wake custom summary -->
+    <string name="tap_to_wake_summary_bianca">Дважды нажмите в любом месте на экране, чтобы разбудить или усыпить устройство</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Полный</string>
+    <string name="back_height_high_label">Внизу</string>
+    <string name="back_options_dialog_title">Параметры</string>
+    <string name="back_height_message">Высота экрана используемая для жеста назад.</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Длина полосы</string>
+    <string name="short_label">Короткая</string>
+    <string name="long_label">Длинная</string>
+    <!-- About phone screen, Komodo version -->
+    <string name="komodo_version">Версия Komodo OS</string>
+    <string name="komodo_version_default">Неизвестно</string>
+    <string name="keywords_komodo_version">версия komodo</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Предотвращать случайные пробуждения</string>
+    <string name="proximity_wake_summary">Проверить датчик приближения перед пробуждением экрана двойным нажатием</string>
+</resources>
