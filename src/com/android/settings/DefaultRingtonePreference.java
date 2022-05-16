@@ -48,6 +48,12 @@ public class DefaultRingtonePreference extends RingtonePreference {
     protected void onSaveRingtone(Uri ringtoneUri) {
         RingtoneManager.setActualDefaultRingtoneUriForPhoneAccountHandle(mUserContext,
                 getRingtoneType(), ringtoneUri, getPhoneAccountHandle());
+
+        if (ringtoneUri == null) {
+            setActualDefaultRingtoneUri(ringtoneUri);
+            return;
+        }
+
         String mimeType = getContext().getContentResolver().getType(ringtoneUri);
         if (mimeType == null) {
             Log.e(TAG, "onSaveRingtone for URI:" + ringtoneUri
