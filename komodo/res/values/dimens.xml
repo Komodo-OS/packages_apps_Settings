@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cards -->
+    <dimen name="komodo_cardview_padding">16dp</dimen>
+    <dimen name="komodo_pref_vert">7dp</dimen>
+    <dimen name="komodo_card_radius">?android:attr/dialogCornerRadius</dimen>
+    <dimen name="komodo_card_side_margin">18dp</dimen>
+    <dimen name="komodo_margin_start">32dp</dimen>
+    <dimen name="komodo_minus_summary">-10dp</dimen>
+
+    <!-- About Phone Header icons -->
+    <dimen name="komodo_vertical_padding">20dp</dimen>
+    <dimen name="komodo_cool_branding_half_height">20dp</dimen>
+
+</resources>

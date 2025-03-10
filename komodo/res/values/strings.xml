@@ -1,0 +1,18 @@
+<resources>
+    <!-- About Phone Header -->
+    <string name="keywords_top_level_device_info">about phone, komodo, device name</string>
+    <string name="komodo_device_title">Device</string>
+    <string name="komodo_memory_storage_title">Memory</string>
+    <string name="komodo_battery_size_title">Battery Capacity</string>
+    <string name="komodo_screen_res_title">Screen Resolution</string>
+    <string name="komodo_secpatch_title">Security Patch</string>
+    <string name="komodo_maintainer">Maintainer</string>
+
+    <!--  Default value  -->
+    <string name="maintainer_info_default">Kadal purba</string>
+
+    <!-- SELinux Status -->
+    <string name="komodo_selinux_title">SELinux status</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+</resources>

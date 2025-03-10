@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Cards -->
+    <style name="komodo_about_cardview_text_primary">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/material_dynamic_neutral60</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/sf_pro</item>
+    </style>
+
+    <!-- Cards -->
+    <style name="komodo_about_cardview_text_secondary">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/material_dynamic_neutral80</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/sf_pro</item>
+    </style>
+
+    <!-- Cards -->
+    <style name="komodo_about_cardview_sepatch_text_primary">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/material_dynamic_tertiary50</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/sf_pro</item>
+    </style>
+
+    <!-- Cards -->
+    <style name="komodo_about_cardview_sepatch_text_secondary">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/material_dynamic_tertiary40</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/sf_pro</item>
+    </style>
+
+    <style name="komodo_about_icon">
+        <item name="android:textColor">@color/material_dynamic_neutral80</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/sf_pro</item>
+    </style>
+
+
+    <style name="komodo_about_icon_sepatch">
+        <item name="android:textColor">@color/material_dynamic_tertiary40</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/sf_pro</item>
+    </style>
+
+</resources>

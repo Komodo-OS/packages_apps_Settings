@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/komodo_ternity_dynamic" />
+    <corners
+        android:topLeftRadius="@dimen/komodo_card_radius"
+        android:topRightRadius="@dimen/komodo_card_radius"
+        android:bottomLeftRadius="@dimen/komodo_card_radius"
+        android:bottomRightRadius="@dimen/komodo_card_radius" />
+</shape>

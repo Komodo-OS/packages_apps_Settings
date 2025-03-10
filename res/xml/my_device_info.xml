@@ -142,7 +142,7 @@
             android:order="42"
             android:title="@string/firmware_version"
             android:summary="@string/summary_placeholder"
-            android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
+            android:fragment="com.android.settings.komodo.about.FirmwareVersionSettingsKomodo"
             settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
 
     </PreferenceCategory>

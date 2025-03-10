@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginHorizontal="@dimen/komodo_card_side_margin"
+    android:layout_marginTop="@dimen/komodo_vertical_padding"
+    android:layout_marginBottom="@dimen/komodo_vertical_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingVertical="@dimen/komodo_cool_branding_half_height"
+    android:background="@drawable/about_header_background_ripple">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_banner"
+        android:layout_marginVertical="@dimen/komodo_cardview_padding"/>
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="About Settings"
+    settings:keywords="@string/keywords_top_level_device_info">
+
+    <!-- Komodo Branding -->
+    <Preference
+        settings:layout="@layout/brand_header_about" />
+
+    <!-- Maintainer -->
+    <Preference
+        android:key="maintainer_komodo"
+        android:title="@string/komodo_maintainer"
+        android:summary="@string/summary_placeholder"
+        settings:layout="@layout/komodo_about_card_maintainer"
+        settings:controller="com.android.settings.komodo.about.MainternerPreferenceController" />
+
+    <!-- About phone info header -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="about_phone_info_header"
+        android:layout="@layout/about_phone_info_header"
+        android:selectable="false" />
+
+    <!-- About phone info footer -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="about_phone_info_footer"
+        android:layout="@layout/about_phone_footer"
+        android:selectable="false" />
+
+    <!-- Android version -->
+    <Preference
+        android:key="os_firmware_version"
+        android:title="@string/firmware_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:searchable="false"
+        settings:layout="@layout/komodo_about_card_top"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController" />
+
+    <!-- Baseband -->
+    <Preference
+        android:key="base_band"
+        android:title="@string/baseband_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:layout="@layout/komodo_about_card_middle"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.BasebandVersionPreferenceController"/>
+
+    <!-- Kernel -->
+    <Preference
+        android:key="kernel_version"
+        android:title="@string/kernel_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:layout="@layout/komodo_about_card_middle"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
+
+    <!-- Build -->
+    <Preference
+        android:key="os_build_number"
+        android:title="@string/build_number"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:layout="@layout/komodo_about_card_bottom"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildNumberPreferenceController"/>
+
+</PreferenceScreen>

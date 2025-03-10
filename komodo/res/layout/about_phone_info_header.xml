@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_single_background_ripple"
+        android:layout_marginHorizontal="@dimen/komodo_cardview_padding"
+        android:layout_marginTop="@dimen/komodo_cardview_padding">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/komodo_card_side_margin"
+            android:layout_marginRight="@dimen/komodo_card_side_margin">
+    
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/komodo_card_side_margin"
+                android:layout_marginEnd="@dimen/komodo_card_side_margin"
+                android:layout_marginTop="15.0dip">
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5.0">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="􀄙"
+                        style="@style/komodo_about_icon"/>
+                    <TextView
+                        android:id="@+id/device_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/komodo_device_title"
+                        style="@style/komodo_about_cardview_text_primary"/>
+                    <TextView
+                        android:id="@+id/device_summary"
+                        style="@style/komodo_about_cardview_text_secondary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/komodo_minus_summary"
+                        android:text="Redmi Note 9 Pro" />
+                </LinearLayout>
+    
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5.0">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="􀍾"
+                        style="@style/komodo_about_icon"/>
+                    <TextView
+                        android:id="@+id/memory_storage_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/komodo_memory_storage_title"
+                        style="@style/komodo_about_cardview_text_primary"/>
+                    <TextView
+                        android:id="@+id/memory_storage_summary"
+                        style="@style/komodo_about_cardview_text_secondary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/komodo_minus_summary"
+                        android:text="100 GB" />
+                </LinearLayout>
+            </LinearLayout>
+    
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="@dimen/komodo_card_side_margin"
+                android:layout_marginEnd="@dimen/komodo_card_side_margin">
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:paddingBottom="20.0dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5.0">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="􀛨"
+                        style="@style/komodo_about_icon"/>
+                    <TextView
+                        android:id="@+id/battery_size_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/komodo_battery_size_title"
+                        style="@style/komodo_about_cardview_text_primary"/>
+    
+                    <TextView
+                        android:id="@+id/battery_size_summary"
+                        style="@style/komodo_about_cardview_text_secondary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/komodo_minus_summary"
+                        android:text="7000 mAH" />
+                </LinearLayout>
+    
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:paddingBottom="20.0dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5.0">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="􀏞"
+                        style="@style/komodo_about_icon"/>
+                    <TextView
+                        android:id="@+id/screen_res_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/komodo_screen_res_title"
+                        style="@style/komodo_about_cardview_text_primary"/>
+                    <TextView
+                        android:id="@+id/screen_res_summary"
+                        style="@style/komodo_about_cardview_text_secondary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/komodo_minus_summary"
+                        android:text="8K" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
