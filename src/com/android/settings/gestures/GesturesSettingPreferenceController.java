@@ -27,6 +27,8 @@ import com.android.settingslib.core.AbstractPreferenceController;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.komodo.settings.category.gestures.SwipeToScreenshotPreferenceController;
+
 public class GesturesSettingPreferenceController extends BasePreferenceController {
     private List<AbstractPreferenceController> mGestureControllers;
 
@@ -70,6 +72,7 @@ public class GesturesSettingPreferenceController extends BasePreferenceControlle
         controllers.add(new PreventRingingParentPreferenceController(context, FAKE_PREF_KEY));
         controllers.add(new ScreenOffUdfpsPreferenceController(context, FAKE_PREF_KEY)
                 .setConfig(ambientDisplayConfiguration));
+        controllers.add(new SwipeToScreenshotPreferenceController(context, FAKE_PREF_KEY));
         return controllers;
     }
 }
