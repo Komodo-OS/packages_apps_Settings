@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Monet color pallete -->
+    <color name="komodo_card_dynamic">@color/material_dynamic_neutral20</color>
+    <color name="komodo_text_dynamic">@color/material_dynamic_neutral60</color>
+    <color name="komodo_text_secondary_dynamic">@color/material_dynamic_neutral80</color>
+    <color name="komodo_icon_dynamic">@color/komodo_text_secondary_dynamic</color>
+</resources>

@@ -1,6 +1,9 @@
 <resources>
     <!-- Monet color pallete -->
-    <color name="komodo_card_dynamic">@color/material_dynamic_neutral20</color>
+    <color name="komodo_card_dynamic">@color/material_dynamic_neutral80</color>
     <color name="komodo_banner_dynamic">@color/material_dynamic_secondary70</color>
     <color name="komodo_ternity_dynamic">@color/material_dynamic_tertiary80</color>
+    <color name="komodo_text_dynamic">@color/material_dynamic_neutral40</color>
+    <color name="komodo_text_secondary_dynamic">@color/material_dynamic_neutral20</color>
+    <color name="komodo_icon_dynamic">@color/komodo_text_secondary_dynamic</color>
 </resources>
